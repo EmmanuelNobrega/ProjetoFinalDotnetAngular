@@ -1,0 +1,20 @@
+<div class="container">
+    <div class="row justify-content-start">
+<form class="row g-10" [formGroup]="loginForm" (ngSubmit)="onSubmit()">
+    <div class="col-md-6">
+      <label for="inputEmail" class="form-label">Email</label>
+      <input type="email" class="form-control" id="inputEmail" formControlName="email" placeholder="ipaltiplano@gmail.com">
+    </div>
+    <div class="col-md-6">
+      <label for="inputPassword" class="form-label">Senha</label>
+      <input type="password" class="form-control" id="inputPassword" formControlName="senha" placeholder="Senha">
+    </div>
+    
+    
+    <div class="col-12">
+      <button type="submit" class="btn btn-primary">Entrar</button>
+    </div>
+  </form>
+
+</div>   
+</div>
